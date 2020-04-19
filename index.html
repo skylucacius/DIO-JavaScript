@@ -3,8 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Minha página</title>
+    <script src="js/main.js"></script>
 </head>
 <body>
-    
+    <h1>Minha Página</h1>
+    <button onclick="clicou()">Clique aqui</button>
+    <p id='agradecimento'><b></b></p>
+    <p onclick="redirecionar()"></p>
+    <label id="mousemove" onmouseover="troca(this)" onmouseout="volta(this)">Coloque o mouse aqui</label>
+    <select onchange="mudouValor(this)">
+        <option value="1">opção 1</option>
+        <option value="2">opção 2</option>
+        <option value="3">opção 3</option>
+    </select>
 </body>
 </html>
