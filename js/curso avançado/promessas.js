@@ -1,9 +1,10 @@
+escreve = (texto) => console.log(texto)
 
 const promise1 = new Promise((resolve,reject) => setTimeout(() => resolve('promise 1'),3000))
 const promise2 = new Promise((resolve,reject) => setTimeout(() => resolve('promise 2'), 2000))
 
-promise1.then((data) => console.log(data))
-promise2.then((data2) => console.log(data2))
+promise1.then((dado1) => escreve(dado1))
+promise2.then((dado2) => escreve(dado2))
 
 // Promise.all([Promise1(),Promise2()]).then((data) => {
 //     console.log(data[0])
