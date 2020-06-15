@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\js\\curso avançado\\teste pt 1 - mocha.js"
+            "program": "${workspaceFolder}\\js\\curso avançado\\debugging.js"
         }
     ]
 }
