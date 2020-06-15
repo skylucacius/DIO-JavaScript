@@ -1,0 +1,29 @@
+{
+  "name": "DIO-JavaScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cross-fetch": "^3.0.4",
+    "fetch": "^1.1.0",
+    "isomorphic-fetch": "^2.2.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skylucacius/DIO-JavaScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skylucacius/DIO-JavaScript/issues"
+  },
+  "homepage": "https://github.com/skylucacius/DIO-JavaScript#readme"
+}
