@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\js\\curso avançado\\debugging.js"
+            "program": "${workspaceFolder}\\js\\desafios práticos\\map, filter e reduce.js"
         }
     ]
 }
