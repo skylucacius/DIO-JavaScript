@@ -45,3 +45,4 @@ const escreve = (texto) => console.log(texto)
 // console.log(dogsWeight)
 // console.log(dogsWeight2)
 
+escreve('aquiiii')

@@ -1,5 +1,5 @@
 const Math = require('../math.js')
-const assert = require('assert')
+// const assert = require('assert')
 const expect = require('chai').expect
 const sinon = require('sinon')
 const { spy } = require('sinon')
