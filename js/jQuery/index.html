@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <title>Minha Página</title>
     <script src='main.js'></script>
+    <script src='jquery-3.5.1.js'></script>
+    <link rel="stylesheet" href="bootstrap.css">
 </head>
-<body>
-<p>Página teste do curso de jQuery da Digital Innovation One</p>    
+<body onload="aoCarregar()">
+    <h1 class="text-center my-0 py-3 bg-success" hidden>Página teste do curso de jQuery da Digital Innovation One</h1>
+
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand text-white">Consulta CEP</a>
+    <div class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Insira um CEP aqui ..." id="cep" autofocus>
+        <button class="btn btn-outline-success my-2 my-sm-0" onclick="consultaCep()">Pesquisar</button>
+    </div>
+</nav>
+<p id="estado"></p>
+<p id="cidade"></p>
+<p id="bairro"></p>
+<p id="logradouro"></p>
+
 </body>
 </html>
