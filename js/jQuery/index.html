@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Minha Página</title>
-    <script src='main.js'></script>
     <script src='jquery-3.5.1.js'></script>
+    <script src='main.js'></script>
     <link rel="stylesheet" href="bootstrap.css">
 </head>
-<body onload="aoCarregar()">
+<body onload="
+aoCarregar()
+">
     <h1 class="text-center my-0 py-3 bg-success" hidden>Página teste do curso de jQuery da Digital Innovation One</h1>
 
 <nav class="navbar navbar-dark bg-dark">
@@ -17,10 +19,19 @@
         <button class="btn btn-outline-success my-2 my-sm-0" onclick="consultaCep()">Pesquisar</button>
     </div>
 </nav>
-<p id="estado"></p>
-<p id="cidade"></p>
-<p id="bairro"></p>
-<p id="logradouro"></p>
 
+<div class="container teste" style="margin-top: 20px;">
+    <table class="table">
+        <thead>
+            <h3 id="cep_titulo">CEP</h3>
+        </thead>
+        <tbody>
+            <tr><td>estado</td>     <td id="estado"> </td></tr>
+            <tr><td>cidade</td>     <td id="cidade"> </td></tr>
+            <tr><td>bairro</td>     <td id="bairro"> </td></tr>
+            <tr><td>logradouro</td> <td id="logradouro"> </td></tr>
+        </tbody>
+    </table>
+</div>
 </body>
 </html>
