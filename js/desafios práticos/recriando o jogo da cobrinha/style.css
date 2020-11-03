@@ -1,0 +1,22 @@
+:root {
+    --caixa: 700px
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    border: 1px solid black;
+    
+    width: var(--caixa);
+    height: var(--caixa); 
+   
+    /* width: 99vw;
+    height: 99vh;  */
+}
+
+canvas {
+    width: 100%;
+    height:100%;
+}
